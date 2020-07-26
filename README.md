@@ -5,7 +5,8 @@ This is a repository of some useful image processing tools.
 # Edge Detection
 Canny Edge Detection
 
-Laplacian Edge Detection
+![](https://github.com/ChuinHongYap/image_processing_lib/blob/master/images/cannyEdge_comparison.png)
 
-Sobel Edge Detection
+Laplacian & Sobel Edge Detection
 
+![](https://github.com/ChuinHongYap/image_processing_lib/blob/master/images/sobelEdge_comparison.png)
