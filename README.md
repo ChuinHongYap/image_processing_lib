@@ -2,6 +2,14 @@
 
 This is a repository of some useful image processing tools.
 
+# Packages Used
+OpenCV 4.0
+
+Numpy 1.18
+
+Matplotlib 3.2
+
+
 # Edge Detection
 Canny Edge Detection
 
