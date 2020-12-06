@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import PIL
 from PIL import Image, ImageEnhance
 
-SAVE_IMAGES = True
+SAVE_IMAGES = False
 
 img = Image.open('osaka_castle.jpg')
 
@@ -50,5 +50,5 @@ plt.title('Rotate C-CW', fontsize=10), plt.xticks([]), plt.yticks([])
 
 # save images for comparison
 if SAVE_IMAGES:
-    plt.savefig('imageAugmentation_comparison.png', dpi=300)
+    plt.savefig('imageAugmentation_comparison.png', dpi=200)
 
