@@ -3,13 +3,7 @@
 This is a repository of some useful image processing tools.
 
 # Packages Used
-OpenCV 4.0
-
-Numpy 1.18
-
-Matplotlib 3.2
-
-Pillow 8.0.1
+OpenCV 4.0, Numpy 1.18, Matplotlib 3.2, Pillow 8.0.1
 
 # Image Augmentation
 Image augmentations performed are:
