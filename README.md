@@ -14,6 +14,12 @@ Image augmentations performed are:
 
 ![](https://github.com/ChuinHongYap/image_processing_lib/blob/master/images/imageAugmentation_comparison.png)
 
+# Addition of Noise
+1. Poisson Noise
+2. Gaussian Noise
+
+![](https://github.com/ChuinHongYap/image_processing_lib/blob/master/images/imageWithNoise_comparison.png)
+
 # Edge Detection
 Canny Edge Detection
 
