@@ -26,25 +26,25 @@ plt.figure(figsize=(8,4))
 
 # plot images
 plt.subplot(2,4,1),plt.imshow(img)
-plt.title('Original', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Original'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,2),plt.imshow(img_gray, cmap="gray")
-plt.title('Grayscale', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Grayscale'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,3),plt.imshow(img_hflip)
-plt.title('Flip Left-Right', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Flip Left-Right'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,4),plt.imshow(img_vflip)
-plt.title('Flip Up-Down', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Flip Up-Down'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,5),plt.imshow(img_contrastLess)
-plt.title('Contrast Down', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Contrast Down'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,6),plt.imshow(img_contrastMore)
-plt.title('Contrast Up', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Contrast Up'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,7),plt.imshow(img_rotate1)
-plt.title('Rotate CW', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Rotate CW'), plt.xticks([]), plt.yticks([])
 
 plt.subplot(2,4,8),plt.imshow(img_rotate2)
-plt.title('Rotate C-CW', fontsize=10), plt.xticks([]), plt.yticks([])
+plt.title('Rotate C-CW'), plt.xticks([]), plt.yticks([])
