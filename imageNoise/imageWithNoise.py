@@ -20,7 +20,7 @@ def addPoissonNoise(img, noise_factor = 1):
     img_noisy = np.clip(img_noisy, 0 , 1)
     return img_noisy
 
-plt.figure(figsize=(12,8))
+plt.figure(figsize=(8,6))
 
 plt.subplot(2,2,1)
 plt.imshow(img), plt.xticks([]), plt.yticks([]), plt.title("Original")
