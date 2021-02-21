@@ -20,6 +20,13 @@ def addPoissonNoise(img, noise_factor = 1):
     img_noisy = np.clip(img_noisy, 0 , 1)
     return img_noisy
 
+# Uniform Noise
+def addUniformNoise(img, noise_factor = 0.5):
+    factor = noise_factor * np.random.uniform(-1, 1, size=img.shape)
+    img_noisy = img + factor
+    img_noisy = np.clip(img_noisy, 0 , 1)
+    return img_noisy
+
 plt.figure(figsize=(8,6))
 
 plt.subplot(2,2,1)
@@ -27,6 +34,6 @@ plt.imshow(img), plt.xticks([]), plt.yticks([]), plt.title("Original")
 plt.subplot(2,2,2)
 plt.imshow(addPoissonNoise(img)), plt.xticks([]), plt.yticks([]), plt.title("Poisson Noise")
 plt.subplot(2,2,3)
-plt.imshow(addGaussianNoise(img,0.2)), plt.xticks([]), plt.yticks([]), plt.title("Gaussian Noise (factor=0.2)")
+plt.imshow(addGaussianNoise(img,0.5)), plt.xticks([]), plt.yticks([]), plt.title("Gaussian Noise")
 plt.subplot(2,2,4)
-plt.imshow(addGaussianNoise(img,0.5)), plt.xticks([]), plt.yticks([]), plt.title("Gaussian Noise (factor=0.5)")
+plt.imshow(addUniformNoise(img,0.5)), plt.xticks([]), plt.yticks([]), plt.title("Uniform Noise")
