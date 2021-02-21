@@ -14,7 +14,7 @@ Image augmentations performed are:
 
 ![](https://github.com/ChuinHongYap/image_processing_lib/blob/master/images/imageAugmentation_comparison.png)
 
-# Addition of Noise
+# Noise Addition
 1. Poisson Noise
 2. Gaussian Noise
 3. Random Uniform Noise
